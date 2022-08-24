@@ -1,0 +1,29 @@
+I"˜<p>This section covers the concept of explainability in machine learning, its importance, and how Seldon Deploy applies explainability.</p>
+
+<ul>
+  <li><a href="#explanablity">Explanablity</a>
+    <ul>
+      <li><a href="#why-is-explainability-important">Why is Explainability important?</a>
+        <ul>
+          <li><a href="#explanablilty-with-alibi-explain">Explanablilty with Alibi Explain</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="explanablity">Explanablity</h1>
+<p>Explainability is a term in machine learning that describes how a model arrives at a decision or prediction. Data scientists can apply the principle of explainability through the use of explainers like <a href="https://docs.seldon.io/projects/alibi/en/latest/index.html" title=" An open-source Python library aimed at machine learning model inspection and interpretation">Seldonâ€™s Alibi Explain</a>. By introducing explainer models as part of their process, data scientists can increase transparency and support stakeholders in understanding how machine learning systems make predictions.</p>
+
+<h2 id="why-is-explainability-important">Why is Explainability important?</h2>
+<p>Explainability facilitates the ability to <a href="https://ec.europa.eu/futurium/en/ai-alliance-consultation.1.html" title="Building trust in human-centric AI">audit and trace</a> how a model arrived at a prediction. Building trust in the process, and prompting reconsideration in sensitive cases where variables such as gender, class, and age can affect the outcome of a prediction of whether an individual will be successful in a loan application.</p>
+
+<p>As machine learning has evolved, regulations to protect people have followed. With article 14 of the General Data Protection Regulation, organizations and data scientists must make individuals aware of automated processes and how the processes arrive at a decision. The practice of using <a href="https://docs.seldon.io/projects/alibi/en/latest/examples/overview.html" title="Alibi Overview Example">Alibi Explain</a> comes not only from an ethical perspective but a legal one.</p>
+
+<h3 id="explanablilty-with-alibi-explain">Explanablilty with Alibi Explain</h3>
+<p>Models can either be <a href="https://docs.seldon.io/projects/alibi/en/latest/overview/white_box_black_box.html" title="Black box and White box models descriptions">black-box or white-box models</a>. The algorithm of a white-box model can be explained because it is possible to trace the variables that led to a prediction. For example, in a linear regression model where it is easy to discern how the independent variables led to the prediction of the dependent variable.</p>
+
+<p>Although black-box models such as deep neural networks are powerful, <em>how</em> these models make a prediction is impossible for a data scientist to investigate because the algorithms could be behind an API endpoint. With the results of a black-box model alone, clinicians, for example, will not be able to justify their recommended treatment plan if the data scientists they work with cannot demonstrate how the model arrived at the prediction. The ability to understand a prediction is where methods like <a href="https://docs.seldon.io/projects/alibi/en/stable/methods/Anchors.html"><strong>Anchor</strong></a> in Alibi Explain can be utilized to demonstrate why the model arrived at the prediction.</p>
+
+<p>Take a method like <a href="https://docs.seldon.io/projects/alibi/en/stable/methods/CFRL.html#Overview" title="aka counterfactual instances"><strong>Counterfactuals with Reinforcement Learning</strong></a> and the scenario of the clinician with a high-risk patient. Counterfactual explanations can be used to gain insight into which health factor (weight, sugar consumption) needs to be addressed to reduce disease risk. Using a counterfactual explanation can point the clinician to the changes in lifestyle that the patient would have to make to prevent the patient from getting the disease.</p>
+:ET
