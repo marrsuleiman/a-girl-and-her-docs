@@ -1,0 +1,71 @@
+I"�<h2 id="what-is-git">What is GIT?</h2>
+
+<p><a href="https://git-scm.com/">Git</a> is a Git is a <strong>free</strong> and <strong>open-source distributed version control system</strong> that allows you as a budding technical writer to collaborate on writing projects. Think of Git as your friendly neighbourhood document tracker. Rather than using the UI <strong>(the clicking bits on the webpage)</strong> on <a href="https://github.com/">GitHub</a>, you can use a terminal on a code editor like <a href="https://code.visualstudio.com/">Visual Studio Code</a> to send your documents to your GitHub repository.</p>
+
+<p>That’s it! That’s all you need to know to get started.</p>
+
+<p>In plain English, you write a document on word, name it, save it to your cloud, and everyone on your team can access it if you permit them. The only difference is that the primary document won’t get modified because everyone is working on an isolated version of the word document. So, technically, your team’s edits do not exist until <strong>**you</strong>** all agree on the changes to the main document. As far as Git is concerned,  your edits don’t matter until you <strong>**tell</strong>** Git they do.</p>
+
+<h3 id="set-up-a-github-account">Set up a Github account</h3>
+
+<ul>
+  <li>Set up a <a href="https://github.com/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F&amp;source=header-home">GitHub</a> account.</li>
+  <li>Create a <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository">Repository</a>.</li>
+</ul>
+
+<p>After creating a Github account, go to your repository to create a new file and save it. Type in some text, and submit your changes.</p>
+
+<h3 id="set-up-visual-studio-code">Set up Visual Studio Code</h3>
+
+<ol>
+  <li>Download and install <a href="https://code.visualstudio.com/">Visual Studio Code</a>.</li>
+  <li>Check to make sure Git is on your computer, open the <strong>command prompt</strong> application, and type <code class="language-plaintext highlighter-rouge">git --version.</code> The version type will show up. If the version type does not return, then you need to install <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Git</a></li>
+</ol>
+
+<h3 id="create-a-folder-from-visual-studio-code">Create a Folder from Visual Studio Code</h3>
+<ol>
+  <li>Open Visual studio.</li>
+  <li>Go to <strong>file</strong>&gt;<strong>open folder</strong>&gt;<strong>documents</strong> and create a new folder called <strong>projects</strong>.</li>
+  <li>Select ** Folder<strong>. You are now in your newly created VS code called **project</strong>.</li>
+</ol>
+
+<h3 id="clone-your-repository-to-your-computer">Clone your repository to your computer</h3>
+<ol>
+  <li>Go to Github, and go to the repository you created earlier.</li>
+  <li>Select <strong>add file</strong> &gt; Select <strong>create new file</strong>.</li>
+  <li>Type <code class="language-plaintext highlighter-rouge">this is easy, it's not so bad, I am awesome for even getting this far</code></li>
+  <li>Scroll down, under <strong>commit new file</strong>, select <strong>commit new file</strong>. I know there was another option, but let’s ignore it now. I’ll address it in another post.</li>
+  <li>Select the <strong>code</strong> drop-down menu, and copy the link that shows up.</li>
+  <li>Go back to VS code. We are going to the <strong>Terminal</strong> to clone the remote repository - in lay terms; we will copy and paste the contents of the repository to your <strong>projects</strong> folder</li>
+  <li>Go to <strong>Terminal</strong> <strong>&gt;</strong> <strong>New Terminal</strong>. A panel just opened up on your bottom screen.</li>
+  <li>On the right panel options, select <strong>bash</strong>.</li>
+</ol>
+
+<p>Think of your Git commands as you think of how you interact with a UI when saving a file. Think of steps you would take to save and upload a file to the could.</p>
+<ol>
+  <li>Open a text editor</li>
+  <li>Type in some words</li>
+  <li>Select <strong>save as</strong></li>
+  <li>Name the File</li>
+  <li>Choose a location</li>
+  <li>Select <strong>save</strong></li>
+</ol>
+
+<p>In this case, we have done this on GitHub, but we want to work on our computers because there could be other teams working on the same repository, and we don’t want to mess things up for others. Think of learning Git as the Christian thing to do. It’s nice when people take the time to step into our shoes.</p>
+
+<p>In the Terminal, the first line of code will look like this <code class="language-plaintext highlighter-rouge">peach@mario NIN64 ~/Documents/Projects (master)</code>. That’s your computer name, your file directory.</p>
+
+<h3 id="git">Git</h3>
+
+<p>`git clone is used to create a copy of remote repositories, in this case, the repository you just created on GitHub.</p>
+
+<ol>
+  <li>Type <code class="language-plaintext highlighter-rouge">git clone</code> and paste the link you copied from your repository after it.</li>
+  <li>Type <code class="language-plaintext highlighter-rouge">git branch</code>. The <strong>terminal</strong> will return <code class="language-plaintext highlighter-rouge">(main)$ git branch* main</code>.</li>
+  <li>In VS code,  navigate to the <strong>test</strong> file, and add some text <code class="language-plaintext highlighter-rouge">this is not so bad. It is making sense</code>.</li>
+  <li>Save your changes with <code class="language-plaintext highlighter-rouge">crtl+s</code>.</li>
+  <li>Go to the <strong>terminal</strong> and type <code class="language-plaintext highlighter-rouge">git status</code>.</li>
+  <li>Read the message in the <strong>terminal</strong>. What does it say? Get familiar with the returned messages in the <strong>terminal</strong>.</li>
+</ol>
+
+:ET

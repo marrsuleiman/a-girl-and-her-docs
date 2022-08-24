@@ -1,0 +1,22 @@
+I"#<h1 id="importing-new-data">Importing New Data</h1>
+
+<p>This section is a step by step guide on how to import new data to Raisers’ Edge</p>
+
+<p>Please consider the following suggestions before you begin importing your new data:</p>
+
+<ul>
+  <li>Backup on your database. If importing several sets of data, back up your database after you import each set.</li>
+  <li>Run the import on your fastest computer. If possible, use the file server terminal.</li>
+</ul>
+
+<ol>
+  <li>Go to the left panel on the Raisers’ Edge bar, Select <strong>Admin</strong>.</li>
+  <li>Select <strong>Import</strong> .
+All import types will appear of the left, the import type you select depend on the import action you wish to run.</li>
+  <li>Select the <strong>Import type</strong>.</li>
+  <li>On the <strong>Action bar</strong> select <strong>New import</strong>.</li>
+  <li>Select the <strong>Import new records</strong> check box.</li>
+  <li>Browse to file that you wish to import from the <strong>import file</strong> box.</li>
+  <li>Select <strong>Save</strong>.</li>
+</ol>
+:ET
