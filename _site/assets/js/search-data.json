@@ -1,0 +1,74 @@
+{"0": {
+    "doc": "About",
+    "title": "About",
+    "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
+    "url": "http://localhost:4000/about/",
+    "relUrl": "/about/"
+  },"1": {
+    "doc": "Graphs",
+    "title": "What is a Graph?",
+    "content": "A Graph is a mathematical term for an object that shows the connections between real-world entities. A graph consists of nodes(vertices) and edges. The edges in a graph exist to connect to nodes together. Social media networks like Twitter can be represented in a graph because it is possible to show that Mike Follows Ted. In this example, Mike and Ted will be represented as nodes in a Graph and the follows is the connection between them and is therefore the edge. ",
+    "url": "http://localhost:4000/graphs/#what-is-a-graph",
+    "relUrl": "/graphs/#what-is-a-graph"
+  },"2": {
+    "doc": "Graphs",
+    "title": "Graphs",
+    "content": " ",
+    "url": "http://localhost:4000/graphs/",
+    "relUrl": "/graphs/"
+  },"3": {
+    "doc": "Data Analysis",
+    "title": "Introduction",
+    "content": "During fundraising campaigns, we often do not have time to provide detailed analysis on which segments of our donor list to focus our time, money, and human resources to achieve our goal of raising the maximum amount of money. In the past, assumptions about the likelihood of higher response rates were based on our donors’ age, sex, and postcodes. In the current financial state of the organisation, we have decided that we are more likely to maximise our net income by significantly reducing the budget of our communications via post since donors are increasingly donating via our website. The bulk of our expenditure goes towards fulfilment and postage. The assumption is that increased email communications lead to a higher response rate. This analysis contained in this report will test the assumptions that we have made about our donors and the most effective method of interacting with them. Data . The tables below show the total number of donors contacted in December 2017 and 2018 through Mail and Email. The responses column shows the total number of responses for each communication method in each given year. | Year | Email | Responses | . | 2017 | 25,311 | 261 | . | 2018 | 5564 | 18 | . | Year | Mail | Responses | . | 2017 | 69,762 | 3,382 | . | 2018 | 50,823 | 2,457 | . Methods . The data was collected using joins SQL from our Financial tables and our correspondences tables from our Oracle database. From the correspondences tables, we collated the total number of emails and mail letters sent in December for 2017 and 2018. We calculated the total number of donors we contacted via post and email. Participants were informed of the organisation processing their data for analysis via our privacy policy. To calculate the response rates, we divided the responses by the number of donors the organisation contacted during the Christmas appeal for 2017 and 2018. In this report, when responses are referred to, we mean the number of donations made due to communication with a supporter. Results . | Year | Email Response Rate | Mail Response Rate | . | 2017 | 1.03% | 4.85% | . | 2018 | 0.32% | 4.83% | . In both 2017 and 2018, the response rate for Mail was 4.85% and 4.83%. Our Mail communications performed better than our Email communication method, which shows a response rate of 1.03% and 0.32% for 2017 and 2018, respectively. Based on the results of the response rates, we cannot assume that email communications are leading to a rise in online donations—further exploration of our data is recommended to make an informed decision about cutting our Mail expenditure budget. ",
+    "url": "http://localhost:4000/Data%20Analysis/#introduction",
+    "relUrl": "/Data Analysis/#introduction"
+  },"4": {
+    "doc": "Data Analysis",
+    "title": "Data Analysis",
+    "content": " ",
+    "url": "http://localhost:4000/Data%20Analysis/",
+    "relUrl": "/Data Analysis/"
+  },"5": {
+    "doc": "Explainability",
+    "title": "Explanablity",
+    "content": "Explainability is a term in machine learning that describes how a model arrives at a decision or prediction. Data scientists can apply the principle of explainability through the use of explainers like Seldon’s Alibi Explain. By introducing explainer models as part of their process, data scientists can increase transparency and support stakeholders in understanding how machine learning systems make predictions. ",
+    "url": "http://localhost:4000/Explainability/#explanablity",
+    "relUrl": "/Explainability/#explanablity"
+  },"6": {
+    "doc": "Explainability",
+    "title": "Why is Explainability important?",
+    "content": "Explainability facilitates the ability to audit and trace how a model arrived at a prediction. Building trust in the process, and prompting reconsideration in sensitive cases where variables such as gender, class, and age can affect the outcome of a prediction of whether an individual will be successful in a loan application. As machine learning has evolved, regulations to protect people have followed. With article 14 of the General Data Protection Regulation, organizations and data scientists must make individuals aware of automated processes and how the processes arrive at a decision. The practice of using Alibi Explain comes not only from an ethical perspective but a legal one. Explanablilty with Alibi Explain . Models can either be black-box or white-box models. The algorithm of a white-box model can be explained because it is possible to trace the variables that led to a prediction. For example, in a linear regression model where it is easy to discern how the independent variables led to the prediction of the dependent variable. Although black-box models such as deep neural networks are powerful, how these models make a prediction is impossible for a data scientist to investigate because the algorithms could be behind an API endpoint. With the results of a black-box model alone, clinicians, for example, will not be able to justify their recommended treatment plan if the data scientists they work with cannot demonstrate how the model arrived at the prediction. The ability to understand a prediction is where methods like Anchor in Alibi Explain can be utilized to demonstrate why the model arrived at the prediction. Take a method like Counterfactuals with Reinforcement Learning and the scenario of the clinician with a high-risk patient. Counterfactual explanations can be used to gain insight into which health factor (weight, sugar consumption) needs to be addressed to reduce disease risk. Using a counterfactual explanation can point the clinician to the changes in lifestyle that the patient would have to make to prevent the patient from getting the disease. ",
+    "url": "http://localhost:4000/Explainability/#why-is-explainability-important",
+    "relUrl": "/Explainability/#why-is-explainability-important"
+  },"7": {
+    "doc": "Explainability",
+    "title": "Explainability",
+    "content": "This section covers the concept of explainability in machine learning, its importance, and how Seldon Deploy applies explainability. | Explanablity . | Why is Explainability important? . | Explanablilty with Alibi Explain | . | . | . ",
+    "url": "http://localhost:4000/Explainability/",
+    "relUrl": "/Explainability/"
+  },"8": {
+    "doc": "Git Workflow",
+    "title": "What is GIT?",
+    "content": "Git is a Git is a free and open-source distributed version control system that allows you as a budding technical writer to collaborate on writing projects. Think of Git as your friendly neighbourhood document tracker. Rather than using the UI (the clicking bits on the webpage) on GitHub, you can use a terminal on a code editor like Visual Studio Code to send your documents to your GitHub repository. That’s it! That’s all you need to know to get started. In plain English, you write a document on word, name it, save it to your cloud, and everyone on your team can access it if you permit them. The only difference is that the primary document won’t get modified because everyone is working on an isolated version of the word document. So, technically, your team’s edits do not exist until **you** all agree on the changes to the main document. As far as Git is concerned, your edits don’t matter until you **tell** Git they do. Set up a Github account . | Set up a GitHub account. | Create a Repository. | . After creating a Github account, go to your repository to create a new file and save it. Type in some text, and submit your changes. Set up Visual Studio Code . | Download and install Visual Studio Code. | Check to make sure Git is on your computer, open the command prompt application, and type git --version. The version type will show up. If the version type does not return, then you need to install Git | . Create a Folder from Visual Studio Code . | Open Visual studio. | Go to file&gt;open folder&gt;documents and create a new folder called projects. | Select ** Folder. You are now in your newly created VS code called **project. | . Clone your repository to your computer . | Go to Github, and go to the repository you created earlier. | Select add file &gt; Select create new file. | Type this is easy, it's not so bad, I am awesome for even getting this far | Scroll down, under commit new file, select commit new file. I know there was another option, but let’s ignore it now. I’ll address it in another post. | Select the code drop-down menu, and copy the link that shows up. | Go back to VS code. We are going to the Terminal to clone the remote repository - in lay terms; we will copy and paste the contents of the repository to your projects folder | Go to Terminal &gt; New Terminal. A panel just opened up on your bottom screen. | On the right panel options, select bash. | . Think of your Git commands as you think of how you interact with a UI when saving a file. Think of steps you would take to save and upload a file to the could. | Open a text editor | Type in some words | Select save as | Name the File | Choose a location | Select save | . In this case, we have done this on GitHub, but we want to work on our computers because there could be other teams working on the same repository, and we don’t want to mess things up for others. Think of learning Git as the Christian thing to do. It’s nice when people take the time to step into our shoes. In the Terminal, the first line of code will look like this peach@mario NIN64 ~/Documents/Projects (master). That’s your computer name, your file directory. Git . `git clone is used to create a copy of remote repositories, in this case, the repository you just created on GitHub. | Type git clone and paste the link you copied from your repository after it. | Type git branch. The terminal will return (main)$ git branch* main. | In VS code, navigate to the test file, and add some text this is not so bad. It is making sense. | Save your changes with crtl+s. | Go to the terminal and type git status. | Read the message in the terminal. What does it say? Get familiar with the returned messages in the terminal. | . ",
+    "url": "http://localhost:4000/Git%20Workflow/#what-is-git",
+    "relUrl": "/Git Workflow/#what-is-git"
+  },"9": {
+    "doc": "Git Workflow",
+    "title": "Git Workflow",
+    "content": " ",
+    "url": "http://localhost:4000/Git%20Workflow/",
+    "relUrl": "/Git Workflow/"
+  },"10": {
+    "doc": "Step By Step",
+    "title": "Importing New Data",
+    "content": "This section is a step by step guide on how to import new data to Raisers’ Edge . Please consider the following suggestions before you begin importing your new data: . | Backup on your database. If importing several sets of data, back up your database after you import each set. | Run the import on your fastest computer. If possible, use the file server terminal. | . | Go to the left panel on the Raisers’ Edge bar, Select Admin. | Select Import . All import types will appear of the left, the import type you select depend on the import action you wish to run. | Select the Import type. | On the Action bar select New import. | Select the Import new records check box. | Browse to file that you wish to import from the import file box. | Select Save. | . ",
+    "url": "http://localhost:4000/Step%20By%20Step/#importing-new-data",
+    "relUrl": "/Step By Step/#importing-new-data"
+  },"11": {
+    "doc": "Step By Step",
+    "title": "Step By Step",
+    "content": " ",
+    "url": "http://localhost:4000/Step%20By%20Step/",
+    "relUrl": "/Step By Step/"
+  }
+}
