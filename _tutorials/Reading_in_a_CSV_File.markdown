@@ -1,3 +1,10 @@
+---
+layout: page
+title: Reading a CSV with Python
+permalink:/Reading a CSV with Python/
+---
+
+
 This lab will follow a step-by-step guide on how to read a CSV file that you have stored on your computer or server. 
 
 The file's location on your computer or server is essential because if you move the file, you will need to point Python to the file's position. 
